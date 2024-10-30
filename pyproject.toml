@@ -1,16 +1,28 @@
 [tool.poetry]
-name = "tictactoe_fc2786"
+name = "chau-fung"
 version = "0.1.0"
-description = "A Python package that provides core functions for creating and playing a simple Tic-Tac-Toe game. The package includes essential game mechanics, player controls, and win-condition checks, making it easy to integrate or use as a standalone game."
-authors = ["Fung Chau"]
-license = "MIT"
+description = ""
+authors = ["Fung Chau <fchau9399@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+numpy = "^2.1.1"
+scipy = "^1.14.1"
+seaborn = "^0.13.2"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
 
-[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+pytest = "^8.3.3"
+sphinx = "^8.1.3"
+myst-nb = "^1.1.2"
+sphinx-rtd-theme = "^3.0.1"
+sphinx-autoapi = "^3.3.3"
+sphinx-autodoc-typehints = "^2.5.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
