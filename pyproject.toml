@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chau-fung"
+name = "tictactoe_fc2786"
 version = "0.1.0"
 description = ""
 authors = ["Fung Chau <fchau9399@gmail.com>"]
